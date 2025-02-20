@@ -1,0 +1,39 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(245, 160, 104);
+}
+.room-container {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.room-id {
+    display: block;
+    margin-bottom: 5px;
+}
+.room-container img {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 15px;
+}
+.floor-header{
+    background-color: rgb(216, 216, 216);
+    text-align: left;
+}
+.rooms{
+    background-color: rgb(233, 242, 252);
+    text-align: center;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+}
+.room-container img:hover{
+    border-radius: 30px;
+}
